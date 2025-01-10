@@ -1,0 +1,5 @@
+.vercel
+.venv
+.env
+
+node_modules

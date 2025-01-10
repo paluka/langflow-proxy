@@ -1,0 +1,16 @@
+{
+  "name": "langflow-proxy",
+  "version": "1.0.0",
+  "description": "Proxy for GitHub webhook to LangFlow integration",
+  "scripts": {
+    "start": "node ./api/webhook.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
